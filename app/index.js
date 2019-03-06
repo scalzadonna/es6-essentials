@@ -1,9 +1,13 @@
-let points = [10,20,30];
+//filtering in es6
 
-// let add1 = (el)=>{
-// return el+1;
-// }
+let isPassing = (grade)=>{
+    return grade>=70;
+}
 
-points = points.map(element => element+1);
+let scores = [90,85,40,30,35,99];
 
-console.log(points);
+//let passing = scores.filter(isPassing);
+
+let passing = scores.filter(el => el>=70);
+
+console.log(passing);
