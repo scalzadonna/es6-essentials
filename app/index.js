@@ -19,6 +19,6 @@ console.log(hobbit, wizard, ranger);
 let f = [100,200,300,400,500];
 
 
-let [g, ...h] = f;
+let [g, i, ...h] = f;
 
-console.log(g,h);
+console.log(g,h,i);
