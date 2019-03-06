@@ -1,13 +1,9 @@
-this.a = 25;
+let points = [10,20,30];
 
-let print = function(){
-    this.a = 15;
-    console.log(this.a);
-};
+// let add1 = (el)=>{
+// return el+1;
+// }
 
-let arrowPrint = ()=>{
-    console.log(this.a);
-}
-print();
+points = points.map(element => element+1);
 
-arrowPrint();
+console.log(points);
