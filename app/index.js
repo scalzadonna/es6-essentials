@@ -1,19 +1,18 @@
-let wizard ={
-    magical: true,
-    power: 10
-}
+//Array functions
 
-let magical = true;
-let power = 2;
+// function blastoff(){
+//     console.log('3..,2..,1.., blastoff!');
+// }
 
-//let magical = wizard.magical;
-//let power = wizard.power;
-
-//let {magical, power} = wizard;
+//blastoff();
 
 
-let ranger = {    magical: false,    power: 9};
+// setTimeout(()=>{
+//     console.log('3..,2..,1.., blastoff!');
+// }, 100);
 
-({magical, power} = ranger);
+const blastoff = () =>{
+    console.log('3..,2..,1.., blastoff!');
+};
 
-console.log(magical, power);
+blastoff();
