@@ -1,13 +1,19 @@
-var a = 'hello';
-var b = 'world';
+let a = [7,8,9];
+let b = [6, ...a, 10];
 
-var c = a + ' ' + b;
+//console.log(b);
 
-//console.log(c);
+function print(a,b,c){
+    console.log(a,b,c);
+}
 
-let d = `hello ${b}`;
-console.log(d);
+let z = [1,2,3];
+//print(z[0],z[1],z[2]);
 
-let e = `${a} world`;
+//print(...z);
 
-console.log(e);
+function print2(...z){
+    console.log(z);
+}
+
+print2(1,2,3,4,5,6);
