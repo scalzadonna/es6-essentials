@@ -1,7 +1,8 @@
+let a = 'hello';
 
+console.log(a);
 
-console.log('Hello webpack');
-
-console.log('Hello in the browser');
-
-console.warn('and this');
+{
+    let a = 'goodbye';
+    console.log(a);
+}
