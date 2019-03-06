@@ -1,24 +1,19 @@
-let c = [100,200];
+let wizard ={
+    magical: true,
+    power: 10
+}
 
-let a = c[0];
-let b = c[1];
+let magical = true;
+let power = 2;
 
-console.log(a,b);
+//let magical = wizard.magical;
+//let power = wizard.power;
 
-let [d,e] = c;
-
-console.log(d,e);
-
-let fellowship = ['Frodo', 'Gandalf', 'Aragorn'];
-
-let [hobbit, wizard, ranger] = fellowship;
-
-console.log(hobbit, wizard, ranger);
+//let {magical, power} = wizard;
 
 
-let f = [100,200,300,400,500];
+let ranger = {    magical: false,    power: 9};
 
+({magical, power} = ranger);
 
-let [g, i, ...h] = f;
-
-console.log(g,h,i);
+console.log(magical, power);
