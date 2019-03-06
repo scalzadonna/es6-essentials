@@ -1,18 +1,13 @@
-//Array functions
+this.a = 25;
 
-// function blastoff(){
-//     console.log('3..,2..,1.., blastoff!');
-// }
-
-//blastoff();
-
-
-// setTimeout(()=>{
-//     console.log('3..,2..,1.., blastoff!');
-// }, 100);
-
-const blastoff = () =>{
-    console.log('3..,2..,1.., blastoff!');
+let print = function(){
+    this.a = 15;
+    console.log(this.a);
 };
 
-blastoff();
+let arrowPrint = ()=>{
+    console.log(this.a);
+}
+print();
+
+arrowPrint();
