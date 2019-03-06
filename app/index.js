@@ -1,11 +1,8 @@
-let a = 'hello';
+//const a = 'sarasa';
+//a = 3;
 
-console.log(a);
+const array = [1,2,3];
+array.push(4);
+console.log(array);
 
-{
-    let a = 'goodbye';
-    console.log(a);
-    let salary = 9000;
-}
-
-console.log(salary);
+array = [1];
