@@ -1,5 +1,11 @@
 //modules in es6
+// import {add, multiply} from './calculator';
 
-import {students, total} from './students';
+// console.log(add(3,5));
+// console.log(multiply(3,5));
 
-console.log(students, total);
+
+import multiply from './calculator';
+
+//console.log(add(3,5));
+console.log(multiply(3,5));
